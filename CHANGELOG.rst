@@ -2,6 +2,11 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2024-04-25)
+------------------
+* Use an alias target for root library
+* Contributors: Addisu Z. Taddese
+
 0.0.2 (2024-04-11)
 ------------------
 * Add support for the `<pkg>::<pkg>` and `<pkg>::all` targets, fix sourcing of dsv files
