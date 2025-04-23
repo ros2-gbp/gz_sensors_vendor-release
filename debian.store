@@ -1,1 +1,1 @@
-{"base": "62e690b", "parent": "debian/rolling/gz_sensors_vendor", "previous": "58b3cd9", "trim": "", "trimbase": ""}
+{"base": "d2d4a3c39856", "parent": "debian/kilted/gz_sensors_vendor", "previous": "44303e80c06b", "trim": "", "trimbase": ""}
