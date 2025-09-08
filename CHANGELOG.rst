@@ -2,6 +2,11 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2025-09-08)
+------------------
+* Jetty support: 10.0.0-pre1 (`#9 <https://github.com/gazebo-release/gz_sensors_vendor/issues/9>`_)
+* Contributors: Steve Peters
+
 0.2.2 (2025-06-27)
 ------------------
 * Merge pull request (`#8 <https://github.com/gazebo-release/gz_sensors_vendor/issues/8>`_)
