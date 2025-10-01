@@ -1,0 +1,77 @@
+ros-rolling-gz-sensors-vendor (0.3.1-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #11 <https://github.com/gazebo-release/gz_sensors_vendor/issues/11> from gazebo-release/releasepy/rolling/10.0.0
+    Bump version to 10.0.0
+  * Bump version to 10.0.0
+  * Add dsv for PYTHONPATH for Jetty packages (#10 <https://github.com/gazebo-release/gz_sensors_vendor/issues/10>)
+  * Contributors: Carlos Agüero, Jose Luis Rivero, Steve Peters
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 30 Sep 2025 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.3.0-1bookworm) bookworm; urgency=high
+
+  * Jetty support: 10.0.0-pre1 (#9 <https://github.com/gazebo-release/gz_sensors_vendor/issues/9>)
+  * Contributors: Steve Peters
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Sun, 07 Sep 2025 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.2.2-1bookworm) bookworm; urgency=high
+
+  * Merge pull request (#8 <https://github.com/gazebo-release/gz_sensors_vendor/issues/8>)
+  * Bump version to 9.2.0
+  * Contributors: Jose Luis Rivero
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 26 Jun 2025 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Bump version to 9.1.0 (#6 <https://github.com/gazebo-release/gz_sensors_vendor/issues/6>)
+  * Contributors: Carlos Agüero
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 18 Feb 2025 23:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Bump version to 9.0.0 (#3 <https://github.com/gazebo-release/gz_sensors_vendor/issues/3>)
+  * Apply prerelease suffix (#2 <https://github.com/gazebo-release/gz_sensors_vendor/issues/2>)
+    * Apply prerelease suffix
+    * Drop BUILD_DOCS
+    ---------
+  * Upgrade to Ionic
+  * Contributors: Addisu Z. Taddese, Ian Chen
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Sun, 29 Sep 2024 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.1.2-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version to 8.2.0
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Sun, 14 Jul 2024 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.1.1-1bookworm) bookworm; urgency=high
+
+  * Update underlying version to 8.1.0
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 28 May 2024 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 22 Apr 2024 22:00:00 -0000
+
+ros-rolling-gz-sensors-vendor (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_sensors_vendor/issues/1>)
+  * Fix url
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 10 Apr 2024 22:00:00 -0000
+
+
