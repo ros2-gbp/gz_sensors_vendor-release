@@ -1,0 +1,12 @@
+Source: ros-lyrical-gz-sensors-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-vendor-package, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-rendering-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-sdformat-vendor, xvfb <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/gazebosim/gz-sensors
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-gz-sensors-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-rendering-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-sdformat-vendor, ros-lyrical-ros-workspace
+Description: Vendor package for: gz-sensors 10.0.1 Gazebo Sensors : Sensor models for simulation
