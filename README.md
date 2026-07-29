@@ -1,3 +1,26 @@
+## gz_sensors_vendor (lyrical) - 0.3.3-1
+
+The packages in the `gz_sensors_vendor` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --ros-distro lyrical gz_sensors_vendor` on `Wed, 29 Jul 2026 13:38:16 -0000`
+
+The `gz_sensors_vendor` package was released.
+
+Version of package(s) in repository `gz_sensors_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_sensors_vendor.git
+- release repository: https://github.com/ros2-gbp/gz_sensors_vendor-release.git
+- rosdistro version: `0.3.2-3`
+- old version: `0.3.2-3`
+- new version: `0.3.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## gz_sensors_vendor (rolling) - 0.4.0-1
 
 The packages in the `gz_sensors_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling gz_sensors_vendor` on `Thu, 14 May 2026 02:15:17 -0000`
