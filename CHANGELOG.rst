@@ -2,6 +2,11 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2026-08-25)
+------------------
+* Upgrade to Rotary prerelease (`#15 <https://github.com/gazebo-release/gz_sensors_vendor/issues/15>`_)
+* Contributors: Addisu Z. Taddese
+
 0.4.1 (2026-07-29)
 ------------------
 * Bump version to 10.0.2 (`#13 <https://github.com/gazebo-release/gz_sensors_vendor/issues/13>`_)
