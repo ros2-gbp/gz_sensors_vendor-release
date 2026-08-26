@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.10)
 project(gz_sensors_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 10)
+set(LIB_VER_MAJOR 11)
 set(LIB_VER_MINOR 0)
-set(LIB_VER_PATCH 2)
-set(LIB_VER_SUFFIX "")
+set(LIB_VER_PATCH 0)
+set(LIB_VER_SUFFIX "-pre1")
 
 # Derived variables
 set(LIB_NAME gz-sensors)
@@ -38,6 +38,7 @@ find_package(gz_msgs_vendor REQUIRED)
 find_package(gz_rendering_vendor REQUIRED)
 find_package(gz_tools_vendor REQUIRED)
 find_package(gz_transport_vendor REQUIRED)
+find_package(gz_utils_vendor REQUIRED)
 find_package(sdformat_vendor REQUIRED)
 
 # Set the VERSION_MATCH to "EXACT" by default, but relax the requirement
@@ -81,6 +82,7 @@ ament_export_dependencies(
   gz_rendering_vendor
   gz_tools_vendor
   gz_transport_vendor
+  gz_utils_vendor
   sdformat_vendor
 )
 
