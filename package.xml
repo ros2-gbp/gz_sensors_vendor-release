@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.4.1</version>
+  <version>0.4.2</version>
   <description>
-    Vendor package for: gz-sensors 10.0.2
+    Vendor package for: gz-sensors 11.0.0
 
     Gazebo Sensors : Sensor models for simulation
   </description>
@@ -33,6 +33,7 @@
   <depend>gz_rendering_vendor</depend>
   <depend>gz_tools_vendor</depend>
   <depend>gz_transport_vendor</depend>
+  <depend>gz_utils_vendor</depend>
   <depend>sdformat_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
