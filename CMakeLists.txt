@@ -5,15 +5,18 @@ project(gz_sensors_vendor)
 # Project-specific settings
 set(LIB_VER_MAJOR 10)
 set(LIB_VER_MINOR 1)
-set(LIB_VER_PATCH 0)
+set(LIB_VER_PATCH 1)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
 set(LIB_NAME gz-sensors)
 set(GITHUB_NAME gz-sensors)
 string(REPLACE "-" "_" LIB_NAME_UNDERSCORE ${LIB_NAME})
+# Also keep the module name for the shim file (gz.foo becomes just "foo")
+string(REGEX REPLACE "^gz-(.*)$" "\\1" LIB_NAME_PYTHON_MODULE ${LIB_NAME})
 set(LIB_NAME_COMP_PREFIX ${LIB_NAME})
 set(LIB_NAME_FULL gz-sensors)
+string(REPLACE "-" "." LIB_NAME_FULL_PYTHON ${LIB_NAME_FULL})
 set(LIB_VER ${LIB_VER_MAJOR}.${LIB_VER_MINOR}.${LIB_VER_PATCH})
 
 option(VENDOR_FROM_LIB_VCS_REF
@@ -90,8 +93,8 @@ if(NOT ${${LIB_NAME_FULL}_FOUND})
   # See https://github.com/ament/ament_package/issues/145
   file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh "# Dummy .sh file needed for .dsv file to be sourced.")
   ament_environment_hooks("${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh")
-  # environment hook for setting PYTHONPATH
-  ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}_pythonpath.dsv.in")
 endif()
+# environment hook for setting PYTHONPATH
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}_pythonpath.dsv.in")
 
 ament_package()
