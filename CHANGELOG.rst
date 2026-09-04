@@ -2,43 +2,23 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.5 (2026-09-02)
+0.2.5 (2026-09-04)
 ------------------
-* Bump version to 10.1.1 (`#19 <https://github.com/gazebo-release/gz_sensors_vendor/issues/19>`_)
+* Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)" (`#21 <https://github.com/gazebo-release/gz_sensors_vendor/issues/21>`_)
+  * Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)"
+  This reverts commit d7145c7eef7082ff3df5b60509a812ded9d22975.
+  * Rerun gz_vendor
+  ---------
 * Contributors: Addisu Z. Taddese
 
-0.3.4 (2026-08-26)
+0.2.4 (2026-08-31)
 ------------------
-* Bump version to 10.1.0 (`#17 <https://github.com/gazebo-release/gz_sensors_vendor/issues/17>`_)
-* Contributors: Arjo Chakravarty
+* Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)
+* Contributors: Addisu Z. Taddese
 
-0.3.3 (2026-07-29)
+0.2.3 (2025-09-04)
 ------------------
-* Bump version to 10.0.2 (`#14 <https://github.com/gazebo-release/gz_sensors_vendor/issues/14>`_)
-* Contributors: Carlos Agüero
-
-0.3.2 (2026-01-22)
-------------------
-* Bump version to 10.0.1 (`#12 <https://github.com/gazebo-release/gz_sensors_vendor/issues/12>`_)
-* Contributors: Ian Chen
-
-0.3.1 (2025-10-01)
-------------------
-* Merge pull request `#11 <https://github.com/gazebo-release/gz_sensors_vendor/issues/11>`_ from gazebo-release/releasepy/rolling/10.0.0
-  Bump version to 10.0.0
-* Bump version to 10.0.0
-* Add dsv for PYTHONPATH for Jetty packages (`#10 <https://github.com/gazebo-release/gz_sensors_vendor/issues/10>`_)
-* Contributors: Carlos Agüero, Jose Luis Rivero, Steve Peters
-
-0.3.0 (2025-09-08)
-------------------
-* Jetty support: 10.0.0-pre1 (`#9 <https://github.com/gazebo-release/gz_sensors_vendor/issues/9>`_)
-* Contributors: Steve Peters
-
-0.2.2 (2025-06-27)
-------------------
-* Merge pull request (`#8 <https://github.com/gazebo-release/gz_sensors_vendor/issues/8>`_)
-* Bump version to 9.2.0
+* Bump version to 9.2.0 (`#7 <https://github.com/gazebo-release/gz_sensors_vendor/issues/7>`_)
 * Contributors: Jose Luis Rivero
 
 0.2.1 (2025-02-19)
