@@ -10,14 +10,14 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.4.2</version>
+  <version>0.4.3</version>
   <description>
     Vendor package for: gz-sensors 11.0.0
 
     Gazebo Sensors : Sensor models for simulation
   </description>
   <maintainer email="addisuzt@intrinsic.ai">Addisu Z. Taddese</maintainer>
-  <license>Apache License 2.0</license>
+  <license>Apache-2.0</license>
   <url type="website">https://github.com/gazebosim/gz-sensors</url>
 
   <buildtool_depend>ament_cmake_core</buildtool_depend>
