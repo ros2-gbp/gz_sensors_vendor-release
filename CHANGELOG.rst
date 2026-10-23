@@ -2,23 +2,25 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.3 (2026-10-06)
+0.3.6 (2026-10-23)
 ------------------
-* Bump version to 11.0.0~pre2 (`#22 <https://github.com/gazebo-release/gz_sensors_vendor/issues/22>`_)
-* Contributors: Addisu Z. Taddese
-
-0.4.2 (2026-08-25)
-------------------
-* Upgrade to Rotary prerelease (`#15 <https://github.com/gazebo-release/gz_sensors_vendor/issues/15>`_)
-* Contributors: Addisu Z. Taddese
-
-0.4.1 (2026-07-29)
-------------------
-* Bump version to 10.0.2 (`#13 <https://github.com/gazebo-release/gz_sensors_vendor/issues/13>`_)
+* Bump version to 10.2.0 (`#23 <https://github.com/gazebo-release/gz_sensors_vendor/issues/23>`_)
 * Contributors: Carlos Agüero
 
-0.4.0 (2026-05-14)
+0.3.5 (2026-09-02)
 ------------------
+* Bump version to 10.1.1 (`#19 <https://github.com/gazebo-release/gz_sensors_vendor/issues/19>`_)
+* Contributors: Addisu Z. Taddese
+
+0.3.4 (2026-08-26)
+------------------
+* Bump version to 10.1.0 (`#17 <https://github.com/gazebo-release/gz_sensors_vendor/issues/17>`_)
+* Contributors: Arjo Chakravarty
+
+0.3.3 (2026-07-29)
+------------------
+* Bump version to 10.0.2 (`#14 <https://github.com/gazebo-release/gz_sensors_vendor/issues/14>`_)
+* Contributors: Carlos Agüero
 
 0.3.2 (2026-01-22)
 ------------------
