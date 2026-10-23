@@ -2,56 +2,27 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.6 (2026-10-23)
+0.0.7 (2026-10-23)
 ------------------
-* Bump version to 9.3.0 (`#24 <https://github.com/gazebo-release/gz_sensors_vendor/issues/24>`_)
+* Bump version to 8.3.0 (`#25 <https://github.com/gazebo-release/gz_sensors_vendor/issues/25>`_)
 * Contributors: Carlos Agüero
 
-0.2.5 (2026-09-04)
+0.0.6 (2025-02-10)
 ------------------
-* Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)" (`#21 <https://github.com/gazebo-release/gz_sensors_vendor/issues/21>`_)
-  * Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)"
-  This reverts commit d7145c7eef7082ff3df5b60509a812ded9d22975.
-  * Rerun gz_vendor
-  ---------
+* Bump version to 8.2.2 (`#5 <https://github.com/gazebo-release/gz_sensors_vendor/issues/5>`_)
 * Contributors: Addisu Z. Taddese
 
-0.2.4 (2026-08-31)
+0.0.5 (2024-11-12)
 ------------------
-* Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)
-* Contributors: Addisu Z. Taddese
+* Bump version to 8.2.1 (`#4 <https://github.com/gazebo-release/gz_sensors_vendor/issues/4>`_)
+* Contributors: Ian Chen
 
-0.2.3 (2025-09-04)
-------------------
-* Bump version to 9.2.0 (`#7 <https://github.com/gazebo-release/gz_sensors_vendor/issues/7>`_)
-* Contributors: Jose Luis Rivero
-
-0.2.1 (2025-02-19)
-------------------
-* Bump version to 9.1.0 (`#6 <https://github.com/gazebo-release/gz_sensors_vendor/issues/6>`_)
-* Contributors: Carlos Agüero
-
-0.2.0 (2024-09-30)
-------------------
-* Bump version to 9.0.0 (`#3 <https://github.com/gazebo-release/gz_sensors_vendor/issues/3>`_)
-* Apply prerelease suffix (`#2 <https://github.com/gazebo-release/gz_sensors_vendor/issues/2>`_)
-  * Apply prerelease suffix
-  * Drop BUILD_DOCS
-  ---------
-* Upgrade to Ionic
-* Contributors: Addisu Z. Taddese, Ian Chen
-
-0.1.2 (2024-07-15)
+0.0.4 (2024-07-15)
 ------------------
 * Update vendored package version to 8.2.0
 * Contributors: Addisu Z. Taddese
 
-0.1.1 (2024-05-29)
-------------------
-* Update underlying version to 8.1.0
-* Contributors: Addisu Z. Taddese
-
-0.1.0 (2024-04-23)
+0.0.3 (2024-04-25)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
