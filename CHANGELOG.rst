@@ -2,6 +2,11 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2026-10-23)
+------------------
+* Bump version to 9.3.0 (`#24 <https://github.com/gazebo-release/gz_sensors_vendor/issues/24>`_)
+* Contributors: Carlos Agüero
+
 0.2.5 (2026-09-04)
 ------------------
 * Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_sensors_vendor/issues/18>`_)" (`#21 <https://github.com/gazebo-release/gz_sensors_vendor/issues/21>`_)
